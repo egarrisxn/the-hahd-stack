@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "start": "deno run --unstable-hmr --allow-net main.ts"
+  },
+  "deploy": {
+    "project": "0f609755-3545-4fd3-b5e6-d57a44dc771e",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
+  }
+}
